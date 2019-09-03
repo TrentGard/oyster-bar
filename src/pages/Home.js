@@ -10,6 +10,7 @@ const Home = () => {
     <Container>
       <h1 className="page-title">The Oyster Bar</h1>
       <h4 className="page-title">Serious Food In A Casual Atmosphere</h4>
+      <br />
       <Carousel controls={false} interval={4500}>
         <Carousel.Item>
           <img src={image1} alt="Home" className="carousel-image" />
