@@ -10,7 +10,7 @@ function DailySpecials() {
   return (
     <Container>
       <h1 className="page-title">Daily Specials</h1>
-      <Carousel controls={false} interval={4500} pauseOnHover={true}>
+      <Carousel controls={false} interval={4500}>
         <Carousel.Item>
           <img src={image1} alt="Home" className="carousel-image-menu" />
         </Carousel.Item>

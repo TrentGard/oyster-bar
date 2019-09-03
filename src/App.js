@@ -8,6 +8,7 @@ import History from "./pages/History";
 import Home from "./pages/Home";
 import Beverages from "./pages/Beverages";
 import DailySpecials from "./pages/DailySpecials";
+import Caterings from "./pages/Caterings";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/dinner" component={Dinner} exact />
         <Route path="/daily_specials" component={DailySpecials} />
         <Route path="/beverages" component={Beverages} exact />
+        <Route path="/caterings" component={Caterings} exact />
         <Route path="/history" component={History} exact />
       </div>
     </Router>

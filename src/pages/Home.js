@@ -10,7 +10,7 @@ const Home = () => {
     <Container>
       <h1 className="page-title">The Oyster Bar</h1>
       <h4 className="page-title">Serious Food In A Casual Atmosphere</h4>
-      <Carousel controls={false} interval={4500} pauseOnHover={true}>
+      <Carousel controls={false} interval={4500}>
         <Carousel.Item>
           <img src={image1} alt="Home" className="carousel-image" />
         </Carousel.Item>
@@ -24,7 +24,7 @@ const Home = () => {
           <img src={image4} alt="Home" className="carousel-image" />
         </Carousel.Item>
       </Carousel>
-      <Row className="justify-content-md-center">
+      <Row className="justify-content-md-center info">
         <Col md="auto">
           <h3>Location:</h3>
           <br />

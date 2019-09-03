@@ -14,7 +14,7 @@ function Beverages() {
         <h1>Beverages</h1>
         <h3>Note: Beers rotate regularly, stop in for the latest craft brews!</h3>
       </div>
-      <Carousel controls={false} interval={4500} pauseOnHover={true}>
+      <Carousel controls={false} interval={4500}>
         <Carousel.Item>
           <img src={image1} alt="Home" className="carousel-image-menu" />
         </Carousel.Item>

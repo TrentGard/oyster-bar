@@ -4,7 +4,7 @@ import { Nav } from "react-bootstrap";
 
 function NavLink({ title, link }) {
   return (
-    <Nav.Link as={Link} to={link} className="ob-nav">
+    <Nav.Link as={Link} to={link} className="ob-nav" style={{ color: 'tan' }}>
       {title}
     </Nav.Link>
   );
