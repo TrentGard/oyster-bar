@@ -25,7 +25,6 @@ const Home = () => {
           <img src={image4} alt="Home" className="carousel-image" />
         </Carousel.Item>
       </Carousel>
-      <br />
       <Row className="justify-content-md-center info">
         <Col md="auto">
           <h3>Location:</h3>
