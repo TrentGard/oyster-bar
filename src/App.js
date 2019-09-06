@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Beverages from "./pages/Beverages";
 import DailySpecials from "./pages/DailySpecials";
 import Caterings from "./pages/Caterings";
+import Social from "./pages/Social";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/beverages" component={Beverages} exact />
         <Route path="/caterings" component={Caterings} exact />
         <Route path="/history" component={History} exact />
+        <Route path="/social" component={Social} exact />
       </div>
     </Router>
   );

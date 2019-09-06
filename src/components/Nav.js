@@ -11,6 +11,7 @@ const links = [
   { title: "Beverages ", link: "/beverages" },
   { title: "Caterings", link: "/caterings" },
   { title: "History ", link: "/history" }
+  // { title: "Social", link: "/social" }
 ];
 
 function Na() {

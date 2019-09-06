@@ -79,6 +79,11 @@
   }
 }
 
+.social-icon {
+  height: 3%;
+  width: 3%;
+}
+
 .ob-nav {
   background-color: #800020;
   color: tan;

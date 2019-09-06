@@ -2,6 +2,7 @@
   "name": "fwoysterbar",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.fwoysterbar.com/",
   "dependencies": {
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.12",
