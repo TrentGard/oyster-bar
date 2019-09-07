@@ -35,6 +35,17 @@
   margin: 3%;
 }
 
+.instagram {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-body-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 .container {
   padding: 1%;
 }

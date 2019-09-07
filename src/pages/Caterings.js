@@ -1,9 +1,5 @@
 import React from 'react';
-import { Container, Carousel } from "react-bootstrap";
-import image1 from "../img/Carousel1.jpg";
-import image2 from "../img/Carousel2.gif";
-import image3 from "../img/Carousel3.gif";
-import image4 from "../img/Carousel4.gif";
+import OBCarousel from "../components/OBCarousel";
 import catering1 from "../img/Catering_Menu1.jpg";
 import catering2 from "../img/Catering_Menu2.jpg";
 import catering3 from "../img/Catering_Menu3.jpg";
@@ -16,25 +12,13 @@ import catering9 from "../img/Catering_Menu9.jpg";
 import catering10 from "../img/Catering_Menu10.jpg";
 import catering11 from "../img/Catering_Menu11.jpg";
 import catering12 from "../img/Catering_Menu12.jpg";
+import { Container } from "react-bootstrap";
 
 function Caterings() {
     return (
         <Container>
             <h1 className="page-title">Caterings</h1>
-            <Carousel controls={false} interval={4500}>
-                <Carousel.Item>
-                    <img src={image1} alt="Home" className="carousel-image-menu" />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src={image2} alt="Home" className="carousel-image-menu" />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src={image3} alt="Home" className="carousel-image-menu" />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src={image4} alt="Home" className="carousel-image-menu" />
-                </Carousel.Item>
-            </Carousel>
+            <OBCarousel className="carousel-image-menu" />
             <img src={catering1} alt="Catering" className="menu-image" />
             <img src={catering2} alt="Catering" className="menu-image" />
             <img src={catering3} alt="Catering" className="menu-image" />

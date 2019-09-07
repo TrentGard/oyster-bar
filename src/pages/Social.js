@@ -1,16 +1,17 @@
 import React from 'react';
-import { Carousel } from "react-bootstrap";
+import { Carousel, Row } from "react-bootstrap";
 import facebookIcon from "../img/facebook_icon.png";
 import instagramIcon from "../img/instagram_icon.png";
+import InstagramEmbed from 'react-instagram-embed';
 
 const Social = () => {
     return (
         <div>
             <h1 className="page-title">Follow Us On Social Media!</h1>
             <br />
-            <h3 className="page-title"><img src={facebookIcon} alt="Facebook" className="social-icon" /> Facebook</h3>
+            <a href="https://www.facebook.com/The-Oyster-Bar-292501212282/" target="_blank" style={{ "color": "tan" }}><h3 className="page-title"><img src={facebookIcon} alt="Facebook" className="social-icon" /> Facebook</h3></a>
             <br />
-            <Carousel controls={false} interval={4500} fade={true}>
+            <Carousel controls={true} interval={4500} fade={true}>
                 <Carousel.Item>
                     <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10158801074134358%26set%3Da.10150421279549358%26type%3D3&width=500"
                         width="500"
@@ -33,10 +34,74 @@ const Social = () => {
                 </Carousel.Item>
             </Carousel>
             <br />
-            <h3 className="page-title"><img src={instagramIcon} alt="Instagram" className="social-icon" /> Instagram</h3>
+            <br />
+            <a href="https://www.instagram.com/fwoysterbar/" target="_blank" style={{ "color": "tan" }}><h3 className="page-title"><img src={instagramIcon} alt="Instagram" className="social-icon" /> Instagram</h3></a>
             <br />
             <Carousel>
-                <Carousel.Item></Carousel.Item>
+                <Carousel.Item>
+                    <div className="instagram">
+                        <InstagramEmbed
+                            url='https://www.instagram.com/p/B2DGR_3Avn5/'
+                            maxWidth={320}
+                            hideCaption={false}
+                            containerTagName='div'
+                            protocol=''
+                            injectScript
+                            onLoading={() => { }}
+                            onSuccess={() => { }}
+                            onAfterRender={() => { }}
+                            onFailure={() => { }}
+                        />
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="instagram">
+                        <InstagramEmbed
+                            url='https://www.instagram.com/p/B2FaSxhAaOd/'
+                            maxWidth={320}
+                            hideCaption={false}
+                            containerTagName='div'
+                            protocol=''
+                            injectScript
+                            onLoading={() => { }}
+                            onSuccess={() => { }}
+                            onAfterRender={() => { }}
+                            onFailure={() => { }}
+                        />
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="instagram">
+                        <InstagramEmbed
+                            url='https://www.instagram.com/p/B2C1OHrAOnI/'
+                            maxWidth={320}
+                            hideCaption={false}
+                            containerTagName='div'
+                            protocol=''
+                            injectScript
+                            onLoading={() => { }}
+                            onSuccess={() => { }}
+                            onAfterRender={() => { }}
+                            onFailure={() => { }}
+                        />
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="instagram">
+                        <InstagramEmbed
+                            url='https://www.instagram.com/p/B2Evcs7Av4k/'
+                            maxWidth={320}
+                            hideCaption={false}
+                            containerTagName='div'
+                            protocol=''
+                            injectScript
+                            onLoading={() => { }}
+                            onSuccess={() => { }}
+                            onAfterRender={() => { }}
+                            onFailure={() => { }}
+                        />
+                    </div>
+                </Carousel.Item>
             </Carousel>
         </div>);
 }
