@@ -8,7 +8,7 @@ import { Container } from "react-bootstrap";
 const Lunch = () => {
   return (
     <Container>
-      <h1 className="page-title">Munch</h1>
+      <h1 className="page-title">Lunch</h1>
       <OBCarousel className="carousel-image-menu" />
       <img src={lunchApp} alt="Lunch App" className="menu-image" />
       <img src={lunchSandwich} alt="Lunch Sandwich" className="menu-image" />
