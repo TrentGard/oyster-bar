@@ -41,17 +41,10 @@
   justify-content: center;
 }
 
-/* .social-container {
-  position: relative;
-    height: 100%;
-    width: auto;
+.social-body-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
-
-.social-container iframe {
-  position: relative;
-  top:0;
-  left: 0;
-} */
 
 .container {
   padding: 1%;
@@ -98,8 +91,8 @@
 }
 
 .social-icon {
-  height: 4%;
-  width: 4%;
+  height: 3%;
+  width: 3%;
 }
 
 .ob-nav {
