@@ -29,7 +29,7 @@ const Home = () => {
           <h3>Reservations</h3>
           <h3>& Caterings:</h3>
           <br />
-          <p>Call (260) 744-9490</p>
+          <p>Call <a href="tel:260-744-9490" style={{ color: 'tan' }}>(260) 744-9490</a></p>
           <br />
         </Col>
       </Row>

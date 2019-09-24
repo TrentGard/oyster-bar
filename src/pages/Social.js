@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Row } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import facebookIcon from "../img/facebook_icon.png";
 import instagramIcon from "../img/instagram_icon.png";
 import InstagramEmbed from 'react-instagram-embed';
@@ -9,7 +9,7 @@ const Social = () => {
         <div>
             <h1 className="page-title">Follow Us On Social Media!</h1>
             <br />
-            <a href="https://www.facebook.com/The-Oyster-Bar-292501212282/" target="_blank" style={{ "color": "tan" }}><h3 className="page-title"><img src={facebookIcon} alt="Facebook" className="social-icon" /> Facebook</h3></a>
+            <a href="https://www.facebook.com/The-Oyster-Bar-292501212282/" target="_blank" without rel="noopener noreferrer" style={{ "color": "tan" }}><h3 className="page-title"><img src={facebookIcon} alt="Facebook" className="social-icon" /> Facebook</h3></a>
             <br />
             <Carousel controls={true} interval={4500} fade={true}>
                 <Carousel.Item>
@@ -20,22 +20,23 @@ const Social = () => {
                         scrolling="no"
                         frameborder="0"
                         allowTransparency="true"
-                        allow="encrypted-media">
+                        allow="encrypted-media"
+                        title="fb1">
                     </iframe>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Friggo75%2Fposts%2F10219559016992779&width=500" width="500" height="679" style={{ "border": "none;overflow:hidden", "background": "white" }} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    <iframe title="fb2" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Friggo75%2Fposts%2F10219559016992779&width=500" width="500" height="679" style={{ "border": "none;overflow:hidden", "background": "white" }} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flaura.evanssteele%2Fposts%2F2282369278690079&width=500" width="500" height="661" style={{ "border": "none;overflow:hidden", "background": "white" }} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    <iframe title="fb3" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flaura.evanssteele%2Fposts%2F2282369278690079&width=500" width="500" height="661" style={{ "border": "none;overflow:hidden", "background": "white" }} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdon.croy%2Fposts%2F10212506969461189%3A0&width=500" width="500" height="563" style={{ "border": "none;overflow:hidden", "background": "white" }} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    <iframe title="fb4" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdon.croy%2Fposts%2F10212506969461189%3A0&width=500" width="500" height="563" style={{ "border": "none;overflow:hidden", "background": "white" }} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </Carousel.Item>
             </Carousel>
             <br />
             <br />
-            <a href="https://www.instagram.com/fwoysterbar/" target="_blank" style={{ "color": "tan" }}><h3 className="page-title"><img src={instagramIcon} alt="Instagram" className="social-icon" /> Instagram</h3></a>
+            <a href="https://www.instagram.com/fwoysterbar/" target="_blank" without rel="noopener noreferrer" style={{ "color": "tan" }}><h3 className="page-title"><img src={instagramIcon} alt="Instagram" className="social-icon" /> Instagram</h3></a>
             <br />
             <Carousel>
                 <Carousel.Item>

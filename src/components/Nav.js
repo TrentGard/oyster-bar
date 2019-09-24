@@ -1,7 +1,6 @@
 import React from "react";
 import NavLink from "./NavLink";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import OBLogo from "../img/OB_Logo.png";
 
 const links = [
   { title: "Home ", link: "/" },

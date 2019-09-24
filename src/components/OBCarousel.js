@@ -3,7 +3,9 @@ import image1 from "../img/Carousel1.jpg";
 import image2 from "../img/Carousel2.gif";
 import image3 from "../img/Carousel3.gif";
 import image4 from "../img/Carousel4.gif";
-import { Container, Carousel } from "react-bootstrap";
+import image5 from "../img/kitchen_view.JPG";
+import image6 from "../img/jacks_oyster_pit.JPG";
+import { Carousel } from "react-bootstrap";
 
 const OBCarousel = ({ className }) => {
     return (
@@ -19,6 +21,12 @@ const OBCarousel = ({ className }) => {
             </Carousel.Item>
             <Carousel.Item>
                 <img src={image4} alt="Home" className={className} />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img src={image5} alt="Home" className={className} />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img src={image6} alt="Home" className={className} />
             </Carousel.Item>
         </Carousel>
     );

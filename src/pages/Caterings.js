@@ -1,5 +1,9 @@
 import React from 'react';
-import OBCarousel from "../components/OBCarousel";
+import cateringImage1 from "../img/Catering1.JPG";
+import cateringImage2 from "../img/Catering2.JPG";
+import cateringImage3 from "../img/Catering3.JPG";
+import cateringImage4 from "../img/Catering4.JPG";
+import cateringImage5 from "../img/Catering5.JPG";
 import catering1 from "../img/Catering_Menu1.jpg";
 import catering2 from "../img/Catering_Menu2.jpg";
 import catering3 from "../img/Catering_Menu3.jpg";
@@ -12,13 +16,29 @@ import catering9 from "../img/Catering_Menu9.jpg";
 import catering10 from "../img/Catering_Menu10.jpg";
 import catering11 from "../img/Catering_Menu11.jpg";
 import catering12 from "../img/Catering_Menu12.jpg";
-import { Container } from "react-bootstrap";
+import { Container, Carousel } from "react-bootstrap";
 
 function Caterings() {
     return (
         <Container>
             <h1 className="page-title">Caterings</h1>
-            <OBCarousel className="carousel-image-menu" />
+            <Carousel controls={false} interval={4500}>
+                <Carousel.Item>
+                    <img src={cateringImage1} alt="Catering" className="carousel-image-menu" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={cateringImage2} alt="Catering" className="carousel-image-menu" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={cateringImage3} alt="Catering" className="carousel-image-menu" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={cateringImage4} alt="Catering" className="carousel-image-menu" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={cateringImage5} alt="Catering" className="carousel-image-menu" />
+                </Carousel.Item>
+            </Carousel>
             <img src={catering1} alt="Catering" className="menu-image" />
             <img src={catering2} alt="Catering" className="menu-image" />
             <img src={catering3} alt="Catering" className="menu-image" />
