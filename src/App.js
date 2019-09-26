@@ -16,14 +16,6 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <Route path="/" component={Home} exact />
-        <Route path="/lunch" component={Lunch} />
-        <Route path="/dinner" component={Dinner} />
-        <Route path="/daily_specials" component={DailySpecials} />
-        <Route path="/beverages" component={Beverages} />
-        <Route path="/caterings" component={Caterings} />
-        <Route path="/history" component={History} />
-        <Route path="/social" component={Social} />
       </div>
     </Router>
   );

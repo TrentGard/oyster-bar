@@ -1,8 +1,9 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const History = () => {
   return (
-    <div>
+    <Container>
       <h1 className="page-title">History</h1>
       <br />
       <h4 className="page-title">THE OYSTER BAR</h4>
@@ -77,7 +78,7 @@ const History = () => {
           COMMITMENT TO BRING YOU THE BEST AND HAVE FUN DOING IT.
         </p>
       </div>
-    </div>
+    </Container>
   );
 };
 

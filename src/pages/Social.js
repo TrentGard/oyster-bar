@@ -1,12 +1,12 @@
 import React from 'react';
-import { Carousel } from "react-bootstrap";
+import { Carousel, Container } from "react-bootstrap";
 import facebookIcon from "../img/facebook_icon.png";
 import instagramIcon from "../img/instagram_icon.png";
 import InstagramEmbed from 'react-instagram-embed';
 
 const Social = () => {
     return (
-        <div>
+        <Container>
             <h1 className="page-title">Follow Us On Social Media!</h1>
             <br />
             <a href="https://www.facebook.com/The-Oyster-Bar-292501212282/" target="_blank" without rel="noopener noreferrer" style={{ "color": "tan" }}><h3 className="page-title"><img src={facebookIcon} alt="Facebook" className="social-icon" /> Facebook</h3></a>
@@ -104,7 +104,7 @@ const Social = () => {
                     </div>
                 </Carousel.Item>
             </Carousel>
-        </div>);
+        </Container>);
 }
 
 export default Social;
