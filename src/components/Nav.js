@@ -10,6 +10,7 @@ import Beverages from "../pages/Beverages";
 import DailySpecials from "../pages/DailySpecials";
 import Caterings from "../pages/Caterings";
 import Social from "../pages/Social";
+
 const links = [
   { title: "Home ", link: "/" },
   { title: "Lunch ", link: "/lunch" },
@@ -20,6 +21,8 @@ const links = [
   { title: "History ", link: "/history" },
   { title: "Social", link: "/social" }
 ];
+
+const base = process.env.PUBLIC_URL;
 
 function Na() {
   return (
@@ -37,14 +40,14 @@ function Na() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Route path="/" to="/" component={Home} exact />
-      <Route path="/lunch" to="/lunch" component={Lunch} exact />
-      <Route path="/dinner" to="/dinner" component={Dinner} exact />
-      <Route path="/daily_specials" to="/daily_specials" component={DailySpecials} exact />
-      <Route path="/beverages" to="/beverages" component={Beverages} exact />
-      <Route path="/caterings" to="/caterings" component={Caterings} exact />
-      <Route path="/history" to="/history" component={History} exact />
-      <Route path="/social" to="/social" component={Social} exact />
+      <Route path={base + "/"} component={Home} exact />
+      <Route path={base + "/lunch"} component={Lunch} exact />
+      <Route path={base + "/dinner"} component={Dinner} exact />
+      <Route path={base + "/daily_specials"} component={DailySpecials} exact />
+      <Route path={base + "/beverages"} component={Beverages} exact />
+      <Route path={base + "/caterings"} component={Caterings} exact />
+      <Route path={base + "/history"} component={History} exact />
+      <Route path={base + "/social"} component={Social} exact />
     </Container>
   );
 }
