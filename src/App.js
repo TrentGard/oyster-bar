@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./components/Nav";
 import "./App.css";
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import Lunch from "./pages/Lunch";
 import Dinner from "./pages/Dinner";
 import History from "./pages/History";
