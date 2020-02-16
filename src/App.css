@@ -120,3 +120,13 @@
     opacity: 1;
   }
 }
+
+.romance {
+  margin: 3%;
+}
+
+.romance-image {
+  max-height: 450px;
+  max-width: 450px;
+  height: auto;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import OBCarousel from "../components/OBCarousel";
 import { Container, Row, Col } from "react-bootstrap";
+import romance from "../img/FourDaysRomance.jpg";
 
 const Home = () => {
   return (
