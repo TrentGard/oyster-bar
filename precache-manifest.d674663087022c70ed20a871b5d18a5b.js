@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ec5395358cbba05b436c4fb28f0bcc0",
+    "revision": "d7f4fa4aa868023a99c9ad9be07c88b1",
     "url": "/index.html"
   },
   {
-    "revision": "38622c79aedeeae58e97",
-    "url": "/static/css/main.6eed6076.chunk.css"
+    "revision": "514ba299db6ad31bcfd1",
+    "url": "/static/css/main.3bee43ad.chunk.css"
   },
   {
-    "revision": "63b23ee5149639180fb7",
-    "url": "/static/js/2.98106a54.chunk.js"
+    "revision": "f21273d2f4394f2b2ed3",
+    "url": "/static/js/2.105e4ad8.chunk.js"
   },
   {
-    "revision": "38622c79aedeeae58e97",
-    "url": "/static/js/main.82bc74cf.chunk.js"
+    "revision": "514ba299db6ad31bcfd1",
+    "url": "/static/js/main.3d641b82.chunk.js"
   },
   {
     "revision": "b9d2c8c6f663214f682a",
@@ -124,10 +124,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Dinner_Seafood.e93127f6.jpg"
   },
   {
-    "revision": "1c11bef2b74b5be9d74f337560f9fd5e",
-    "url": "/static/media/FourDaysRomance.1c11bef2.jpg"
-  },
-  {
     "revision": "95a8df2028fcbd5b6765b4d713f4a282",
     "url": "/static/media/Lunch_App.95a8df20.jpg"
   },
@@ -162,5 +158,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "965b2b669c59a45f9421ea59cbf298b5",
     "url": "/static/media/kitchen_view.965b2b66.JPG"
+  },
+  {
+    "revision": "c592eb61e83cc15fb2de06303b0e9b76",
+    "url": "/static/media/wine.c592eb61.jpg"
   }
 ]);
