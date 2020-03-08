@@ -122,11 +122,10 @@
 }
 
 .wine {
-  margin: 3%;
+  padding: 3%;
 }
 
 .wine-image {
-  max-height: 450px;
-  max-width: 450px;
-  height: auto;
+height: auto;
+width: auto;
 }
