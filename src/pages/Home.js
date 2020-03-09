@@ -9,7 +9,6 @@ const Home = () => {
       <h1 className="page-title">The Oyster Bar</h1>
       <h4 className="page-title">Serious Food In A Casual Atmosphere</h4>
       <br />
-      <br />
       <OBCarousel className="carousel-image" />
       <Row className="justify-content-md-center info">
         <Col md="auto">
