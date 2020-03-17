@@ -13,6 +13,7 @@ const Coronavirus = () => {
         <br />
         <h4 className="page-title blue">Click the Lunch and Dinner Take-Out tabs above to view our updated menus</h4>
         <h4 className="page-title blue">and call <a href="tel:260-744-9490" style={{ color: 'tan' }}>(260) 744-9490</a> to schedule your order.</h4>
+        <h4 className="page-title blue">We will be offering a 10% discount on all food and beverages when you order with a credit or debit card!</h4>
         <br />
         <h4 className="page-title blue">We wish everyone affected by this outbreak</h4>
         <h4 className="page-title blue">good health and well-being during these trying times.</h4>
