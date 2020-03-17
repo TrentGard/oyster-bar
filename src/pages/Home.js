@@ -1,7 +1,6 @@
 import React from "react";
 import OBCarousel from "../components/OBCarousel";
 import { Container, Row, Col } from "react-bootstrap";
-import wine from "../img/wine.jpg";
 
 const Home = () => {
   return (
