@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35433a9011499bfe408cb024716b9ce8",
+    "revision": "9af9364e28bf83fd81bfd3bb13c1a958",
     "url": "/index.html"
   },
   {
-    "revision": "37dab2495d17c245c162",
-    "url": "/static/css/main.f237f8c3.chunk.css"
+    "revision": "480bea02e3b94d1b6a6b",
+    "url": "/static/css/main.96d98449.chunk.css"
   },
   {
-    "revision": "63b23ee5149639180fb7",
-    "url": "/static/js/2.98106a54.chunk.js"
+    "revision": "2b663821b503adc34038",
+    "url": "/static/js/2.a9f2aae6.chunk.js"
   },
   {
-    "revision": "37dab2495d17c245c162",
-    "url": "/static/js/main.d5d8be37.chunk.js"
+    "revision": "480bea02e3b94d1b6a6b",
+    "url": "/static/js/main.e66a230a.chunk.js"
   },
   {
     "revision": "b9d2c8c6f663214f682a",
@@ -108,6 +108,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Cocktails.eeae06db.jpg"
   },
   {
+    "revision": "979563015968452683b803309d7fdf46",
+    "url": "/static/media/CoronavirusApps.97956301.jpg"
+  },
+  {
+    "revision": "86d0780ed84e993f62c4c3c87241bc8f",
+    "url": "/static/media/CoronavirusDinner.86d0780e.jpg"
+  },
+  {
+    "revision": "bff455614534da970b22332e1f396c14",
+    "url": "/static/media/CoronavirusLunch.bff45561.jpg"
+  },
+  {
     "revision": "8084da3bf725aacae00abfc18051b3d8",
     "url": "/static/media/Daily_Features.8084da3b.jpg"
   },
@@ -158,9 +170,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "965b2b669c59a45f9421ea59cbf298b5",
     "url": "/static/media/kitchen_view.965b2b66.JPG"
-  },
-  {
-    "revision": "c592eb61e83cc15fb2de06303b0e9b76",
-    "url": "/static/media/wine.c592eb61.jpg"
   }
 ]);

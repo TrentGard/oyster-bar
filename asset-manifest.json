@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f237f8c3.chunk.css",
-    "main.js": "/static/js/main.d5d8be37.chunk.js",
-    "main.js.map": "/static/js/main.d5d8be37.chunk.js.map",
+    "main.css": "/static/css/main.96d98449.chunk.css",
+    "main.js": "/static/js/main.e66a230a.chunk.js",
+    "main.js.map": "/static/js/main.e66a230a.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.ca4b0a9d.js",
     "runtime~main.js.map": "/static/js/runtime~main.ca4b0a9d.js.map",
-    "static/js/2.98106a54.chunk.js": "/static/js/2.98106a54.chunk.js",
-    "static/js/2.98106a54.chunk.js.map": "/static/js/2.98106a54.chunk.js.map",
+    "static/js/2.a9f2aae6.chunk.js": "/static/js/2.a9f2aae6.chunk.js",
+    "static/js/2.a9f2aae6.chunk.js.map": "/static/js/2.a9f2aae6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6a4ff1b8fb868f4526b9d222fc415a22.js": "/precache-manifest.6a4ff1b8fb868f4526b9d222fc415a22.js",
+    "precache-manifest.2e31a97bb6a912b3b57ea4f166608e60.js": "/precache-manifest.2e31a97bb6a912b3b57ea4f166608e60.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f237f8c3.chunk.css.map": "/static/css/main.f237f8c3.chunk.css.map",
+    "static/css/main.96d98449.chunk.css.map": "/static/css/main.96d98449.chunk.css.map",
     "static/media/Carousel1.jpg": "/static/media/Carousel1.052c3281.jpg",
     "static/media/Carousel2.gif": "/static/media/Carousel2.bd166a92.gif",
     "static/media/Carousel3.gif": "/static/media/Carousel3.ab111f15.gif",
@@ -33,6 +33,9 @@
     "static/media/Catering_Menu8.jpg": "/static/media/Catering_Menu8.60dd28f8.jpg",
     "static/media/Catering_Menu9.jpg": "/static/media/Catering_Menu9.bd975fa7.jpg",
     "static/media/Cocktails.jpg": "/static/media/Cocktails.eeae06db.jpg",
+    "static/media/CoronavirusApps.jpg": "/static/media/CoronavirusApps.97956301.jpg",
+    "static/media/CoronavirusDinner.jpg": "/static/media/CoronavirusDinner.86d0780e.jpg",
+    "static/media/CoronavirusLunch.jpg": "/static/media/CoronavirusLunch.bff45561.jpg",
     "static/media/Daily_Features.jpg": "/static/media/Daily_Features.8084da3b.jpg",
     "static/media/Dinner_Apps.jpg": "/static/media/Dinner_Apps.8740bd1c.jpg",
     "static/media/Dinner_Meats.jpg": "/static/media/Dinner_Meats.ebed61b1.jpg",
@@ -45,7 +48,6 @@
     "static/media/facebook_icon.png": "/static/media/facebook_icon.d1ddbb0b.png",
     "static/media/instagram_icon.png": "/static/media/instagram_icon.56ee4e05.png",
     "static/media/jacks_oyster_pit.JPG": "/static/media/jacks_oyster_pit.9fc87c3a.JPG",
-    "static/media/kitchen_view.JPG": "/static/media/kitchen_view.965b2b66.JPG",
-    "static/media/wine.jpg": "/static/media/wine.c592eb61.jpg"
+    "static/media/kitchen_view.JPG": "/static/media/kitchen_view.965b2b66.JPG"
   }
 }
