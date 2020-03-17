@@ -12,6 +12,9 @@ const Social = () => {
             <a href="https://www.facebook.com/The-Oyster-Bar-292501212282/" target="_blank" without rel="noopener noreferrer" style={{ "color": "tan" }}><h3 className="page-title"><img src={facebookIcon} alt="Facebook" className="social-icon" /> Facebook</h3></a>
             <br />
             <Carousel controls={true} interval={4500} fade={true}>
+                <Carousel.Item interval={6000}>
+                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffwoysterbar%2Fposts%2F10156969698787283&width=500" width="500" height="721" style={{ "border": "none;overflow:hidden", "background": "white" }} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                </Carousel.Item>
                 <Carousel.Item>
                     <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10158801074134358%26set%3Da.10150421279549358%26type%3D3&width=500"
                         width="500"
@@ -39,6 +42,22 @@ const Social = () => {
             <a href="https://www.instagram.com/fwoysterbar/" target="_blank" without rel="noopener noreferrer" style={{ "color": "tan" }}><h3 className="page-title"><img src={instagramIcon} alt="Instagram" className="social-icon" /> Instagram</h3></a>
             <br />
             <Carousel>
+                <Carousel.Item interval={6000}>
+                    <div className="instagram">
+                        <InstagramEmbed
+                            url='https://www.instagram.com/p/B9zwnYZgggv/'
+                            maxWidth={320}
+                            hideCaption={false}
+                            containerTagName='div'
+                            protocol=''
+                            injectScript
+                            onLoading={() => { }}
+                            onSuccess={() => { }}
+                            onAfterRender={() => { }}
+                            onFailure={() => { }}
+                        />
+                    </div>
+                </Carousel.Item>
                 <Carousel.Item>
                     <div className="instagram">
                         <InstagramEmbed
