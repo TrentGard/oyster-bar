@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dffe720b12fe43cb975ff71979936952",
+    "revision": "d559c6322cdabfe373e8b8199ddf43f8",
     "url": "/index.html"
   },
   {
-    "revision": "e430123ec6dc35a26e59",
+    "revision": "b118854e9c1487ebd480",
     "url": "/static/css/main.96d98449.chunk.css"
   },
   {
@@ -12,12 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a9f2aae6.chunk.js"
   },
   {
-    "revision": "e430123ec6dc35a26e59",
-    "url": "/static/js/main.3c526065.chunk.js"
+    "revision": "b118854e9c1487ebd480",
+    "url": "/static/js/main.acab5c00.chunk.js"
   },
   {
     "revision": "b9d2c8c6f663214f682a",
     "url": "/static/js/runtime~main.ca4b0a9d.js"
+  },
+  {
+    "revision": "f09b6cb785a8ec507733610e3b3b9242",
+    "url": "/static/media/324.f09b6cb7.jpeg"
   },
   {
     "revision": "052c328117a674a300eefef0e06845d7",
@@ -118,10 +122,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bff455614534da970b22332e1f396c14",
     "url": "/static/media/CoronavirusLunch.bff45561.jpg"
-  },
-  {
-    "revision": "8084da3bf725aacae00abfc18051b3d8",
-    "url": "/static/media/Daily_Features.8084da3b.jpg"
   },
   {
     "revision": "8740bd1c8cd3ea47ecab093e05742d42",
