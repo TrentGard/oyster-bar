@@ -7,7 +7,7 @@ import Dinner from "../pages/Dinner";
 import History from "../pages/History";
 import Home from "../pages/Home";
 import Beverages from "../pages/Beverages";
-import DailySpecials from "../pages/DailySpecials";
+import CoronavirusSpecials from "../pages/CoronavirusSpecials";
 import Caterings from "../pages/Caterings";
 import Social from "../pages/Social";
 import Coronavirus from "../pages/Coronavirus";
@@ -18,7 +18,7 @@ const links = [
   { title: "Home ", link: "/" },
   { title: "Lunch Take-Out", link: "/lunch" },
   { title: "Dinner Take-Out", link: "/dinner" },
-  // { title: "Daily Specials", link: "/daily_specials" },
+  { title: "Daily Specials", link: "/daily_specials" },
   { title: "Beverages ", link: "/beverages" },
   { title: "Caterings", link: "/caterings" },
   { title: "History ", link: "/history" },
@@ -46,7 +46,7 @@ function Na() {
       <Route path={base + "/"} component={Coronavirus} exact />
       <Route path={base + "/lunch"} component={CoronavirusLunch} exact />
       <Route path={base + "/dinner"} component={CoronavirusDinner} exact />
-      {/* <Route path={base + "/daily_specials"} component={DailySpecials} exact /> */}
+      <Route path={base + "/daily_specials"} component={CoronavirusSpecials} exact />
       <Route path={base + "/beverages"} component={Beverages} exact />
       <Route path={base + "/caterings"} component={Caterings} exact />
       <Route path={base + "/history"} component={History} exact />
