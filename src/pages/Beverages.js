@@ -10,9 +10,9 @@ function Beverages() {
       <div className="page-title">
         <h1>Beverages</h1>
         <br />
-        <h3 className="blue">Notes: Beers rotate regularly.</h3>
-        <h3 className="blue">Not all beverages may be available at this time.</h3>
-        <h3 className="blue"><a href="tel:260-744-9490" style={{ color: 'tan' }}>Call</a> the restaurant for more details.</h3>
+        <h4 className="blue">Notes: Beers rotate regularly.</h4>
+        <h4 className="blue">Not all beverages may be available at this time.</h4>
+        <h4 className="blue"><a href="tel:260-744-9490" style={{ color: 'tan' }}>Call</a> the restaurant for more details.</h4>
       </div>
       <OBCarousel className="carousel-image-menu" />
       <h3 className="page-title">Wines</h3>
