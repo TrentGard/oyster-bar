@@ -13,7 +13,7 @@ function DailySpecials() {
     <Container>
       <h1 className="page-title">Daily Specials</h1>
       <br />
-      <h4 className="page-title blue">Available Tuesday (3/31)</h4>
+      <h4 className="page-title blue">Available Tuesday (3/31, LUNCH ONLY)</h4>
       <OBCarousel className="carousel-image-menu" />
       <img src={dailySpecial6} alt="Daily Specials" className="menu-image" />
       <br />
