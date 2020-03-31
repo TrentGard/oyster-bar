@@ -11,9 +11,8 @@ const Coronavirus = () => {
         <OBCarousel className="carousel-image" />
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>UPDATE:</span> Due to the unexpected surge in demand today</h5>
-        <h5>we are experiencing a high call volume which may result in a busy signal.</h5>
-        <h5>Rest assured we are still open, so keep trying to call</h5>
-        <h5>and THANK YOU so much for your support!</h5>   
+        <h5>we have ceased taking orders until 4 PM for dinner!</h5>
+        <h5>THANK YOU so much for your (literally) overwhelming support!</h5>     
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>New!</span> Check out our Daily Specials tab above for the latest features!</h5>
         <br />
