@@ -10,9 +10,8 @@ const Coronavirus = () => {
         <br />
         <OBCarousel className="carousel-image" />
         <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>UPDATE:</span> Due to the unexpected surge in demand today</h5>
-        <h5>we have ceased taking orders until 4 PM for dinner!</h5>
-        <h5>THANK YOU so much for your (literally) overwhelming support!</h5>     
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>UPDATE:</span> Good news! $2 burgers are extended through dinner hours (4-7 PM, see Daily Specials above)!</h5>
+        <h5>THANK YOU so much for your (literally) overwhelming support!</h5>
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>New!</span> Check out our Daily Specials tab above for the latest features!</h5>
         <br />
