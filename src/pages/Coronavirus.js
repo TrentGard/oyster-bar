@@ -6,15 +6,13 @@ const Coronavirus = () => {
     return (
       <Container>
         <h1 className="page-title">The Oyster Bar</h1>
+        <br />
         <h4 className="page-title">Serious Food In A Casual Atmosphere</h4>
         <br />
         <OBCarousel className="carousel-image" />
         <br />
-        {/* <h5 className="page-title"><span style={{ color: 'lightblue' }}>UPDATE:</span> Good news! $2 burgers are extended through dinner hours (4-7 PM, see Daily Specials above)!</h5>
-        <h5>THANK YOU so much for your (literally) overwhelming support!</h5>
-        <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>New!</span> Check out our Daily Specials tab above for the latest features!</h5>
-        <br /> */}
+        <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19:</span> Due to the Coronavirus outbreak</h5>
         <h5 className="page-title">we will be serving take-out only during limited hours (listed below).</h5>
         <br />
