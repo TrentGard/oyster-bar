@@ -6,10 +6,13 @@ const Coronavirus = () => {
     return (
       <Container>
         <h1 className="page-title">The Oyster Bar</h1>
-        <br />
         <h4 className="page-title">Serious Food In A Casual Atmosphere</h4>
         <br />
         <OBCarousel className="carousel-image" />
+        <br />
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>UPDATE:</span> We will be CLOSED Saturday (4/4) and Monday (4/6).</h5>
+        <h5 className="page-title">BUT we will reopen Tuesday (4/7) for our $2 burger special!</h5>
+        <h5 className="page-title">Keep checking back for more updates and thank you for your continued support!</h5>
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>New!</span> Check out our Daily Specials tab above for the latest features!</h5>
         <br />
