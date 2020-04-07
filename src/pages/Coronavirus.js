@@ -10,11 +10,7 @@ const Coronavirus = () => {
         <br />
         <OBCarousel className="carousel-image" />
         <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>UPDATE:</span> We will be CLOSED Saturday (4/4) and Monday (4/6).</h5>
-        <h5 className="page-title">BUT we will reopen Tuesday (4/7) for our $2 burger special!</h5>
-        <h5 className="page-title">Keep checking back for more updates and thank you for your continued support!</h5>
-        <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>New!</span> Check out our Daily Specials tab above for the latest features!</h5>
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>Update:</span> We are open! Check out our Daily Specials tab above for the latest features!</h5>
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19:</span> Due to the Coronavirus outbreak</h5>
         <h5 className="page-title">we will be serving take-out only during limited hours (listed below).</h5>
