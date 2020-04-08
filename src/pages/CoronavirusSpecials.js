@@ -3,7 +3,7 @@ import dailySpecial1 from "../img/331-2.jpeg";
 import dailySpecial2 from "../img/43.JPG";
 import dailySpecial3 from "../img/43-2.jpg";
 import dailySpecial4 from "../img/47.JPG";
-import dailySpecial5 from "../img/48.JPG";
+import dailySpecial5 from "../img/48-2.JPG";
 import dailySpecial6 from "../img/331.jpeg";
 import dailySpecial7 from "../img/42.JPG";
 import dailySpecial8 from "../img/47-2.JPG";
