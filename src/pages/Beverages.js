@@ -7,17 +7,19 @@ import { Container } from "react-bootstrap";
 function Beverages() {
   return (
     <Container>
-      <div className="page-title">
-        <h1>Beverages</h1>
+        <h1 className="page-title">Beverages</h1>
         <br />
-        <h4 className="blue">Notes: Beers rotate regularly.</h4>
-        <h4 className="blue">Not all beverages may be available at this time.</h4>
-        <h4 className="blue"><a href="tel:260-744-9490" style={{ color: 'tan' }}>Call</a> the restaurant for more details.</h4>
-      </div>
+        <h4 className="page-title blue">Notes: Beers rotate regularly.</h4>
+        <h4 className="page-title blue">Not all beverages may be available at this time.</h4>
+        <h4 className="page-title blue"><a href="tel:260-744-9490" style={{ color: 'tan' }}>Call</a> the restaurant for more details.</h4>
       <OBCarousel className="carousel-image-menu" />
-      <h3 className="page-title">Wines</h3>
+      <h2 className="page-title">Wines</h2>
+      <br />
       <img src={Wine} alt="Wine List" className="menu-image" />
-      <h3 className="page-title">Cocktails</h3>
+      <br />
+      <br />
+      <h2 className="page-title">Cocktails</h2>
+      <br />
       <img src={Cocktails} alt="Cocktails" className="menu-image" />
     </Container>
   );
