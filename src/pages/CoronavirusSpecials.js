@@ -3,7 +3,7 @@ import dailySpecial1 from "../img/331-2.jpeg";
 import dailySpecial2 from "../img/43.JPG";
 import dailySpecial3 from "../img/43-2.jpg";
 import dailySpecial4 from "../img/47.JPG";
-import dailySpecial5 from "../img/330.JPG";
+import dailySpecial5 from "../img/48.JPG";
 import dailySpecial6 from "../img/331.jpeg";
 import dailySpecial7 from "../img/42.JPG";
 import dailySpecial8 from "../img/47-2.JPG";
@@ -15,13 +15,18 @@ function DailySpecials() {
     <Container>
       <h1 className="page-title">Daily Specials</h1>
       <br />
-      <h4 className="page-title blue">Available Tuesday (4/7, LUNCH AND DINNER)</h4>
+      <h4 className="page-title blue">Available Wednesday (4/8)</h4>
       <OBCarousel className="carousel-image-menu" />
-      <img src={dailySpecial4} alt="Daily Specials" className="menu-image" />
-      <img src={dailySpecial8} alt="Daily Specials" className="menu-image" />
+      <img src={dailySpecial5} alt="Daily Specials" className="menu-image" />
       <br />
       <br />
       <h1 className="page-title">Previous Specials</h1>
+      <br />
+      <h4 className="page-title blue">Tuesday (4/7, LUNCH AND DINNER)</h4>
+      <br />
+      <img src={dailySpecial4} alt="Daily Specials" className="menu-image" />
+      <img src={dailySpecial8} alt="Daily Specials" className="menu-image" />
+      <br />
       <br />
       <h4 className="page-title blue">Friday (4/3, DINNER ONLY)</h4>
       <br />
@@ -46,11 +51,6 @@ function DailySpecials() {
       <h4 className="page-title blue">Tuesday (3/31, LUNCH ONLY)</h4>
       <br />
       <img src={dailySpecial6} alt="Daily Specials" className="menu-image" />
-      <br />
-      <br />
-      <h4 className="page-title blue">Monday (3/30)</h4>
-      <br />
-      <img src={dailySpecial5} alt="Daily Specials" className="menu-image" />
     </Container>
   );
 }
