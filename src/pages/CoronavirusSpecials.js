@@ -14,13 +14,13 @@ function DailySpecials() {
   return (
     <Container>
       <h1 className="page-title">Daily Specials</h1>
-      <br />
-      <h4 className="page-title blue">Available Friday (4/10)</h4>
       <OBCarousel className="carousel-image-menu" />
+      <h1 className="page-title">Previous Specials</h1>
+      <br />
+      <h4 className="page-title blue">Friday (4/10)</h4>
+      <br />
       <img src={dailySpecial410} alt="Daily Specials" className="menu-image" />
       <br />
-      <br />
-      <h1 className="page-title">Previous Specials</h1>
       <br />
       <h4 className="page-title blue">Thursday (4/9)</h4>
       <br />
@@ -46,11 +46,6 @@ function DailySpecials() {
       <h4 className="page-title blue">Friday (4/3, LUNCH ONLY)</h4>
       <br />
       <img src={dailySpecial2} alt="Daily Specials" className="menu-image" />
-      <br />
-      <br />
-      <h4 className="page-title blue">Thursday (4/2)</h4>
-      <br />
-      <img src={dailySpecial7} alt="Daily Specials" className="menu-image" />
     </Container>
   );
 }
