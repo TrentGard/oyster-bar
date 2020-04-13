@@ -38,10 +38,9 @@ const Coronavirus = () => {
           <Col md="auto" className="blue">
             <h3>New Hours:</h3>
             <br />
-            <p>M-Fri Lunch: 11:30 AM to 2 PM</p>
-            <p>M-Fri Dinner: 4 PM to 7 PM</p>
-            <p>Sat: 4 PM to 7 PM (Dinner Only)</p>
-            <p>Sun: Closed</p>
+            <p>Tue-Fri Lunch: 11:30 AM to 2 PM</p>
+            <p>Tue-Fri Dinner: 4 PM to 7 PM</p>
+            <p>Sat, Sun, Mon: Closed</p>
             <br />
           </Col>
           <Col md="auto">
