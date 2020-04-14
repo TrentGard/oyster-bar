@@ -1,6 +1,6 @@
 import React from "react";
 import dailySpecial410 from "../img/410.JPG";
-import dailySpecial414 from "../img/414.jpg";
+import dailySpecial414 from "../img/414-1.JPG";
 import dailySpecial3 from "../img/43-2.jpg";
 import dailySpecial4 from "../img/47.JPG";
 import dailySpecial5 from "../img/48-2.JPG";
