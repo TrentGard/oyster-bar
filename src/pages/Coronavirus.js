@@ -10,7 +10,7 @@ const Coronavirus = () => {
         <br />
         <OBCarousel className="carousel-image" />
         <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>Update:</span> $2 burgers are back! Check out our <span style={{ color: 'lightblue' }}>Daily Specials</span> tab above for the latest features!</h5>
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>Update:</span> $2 burgers are back ALONG WITH a triggerfish pasta dish! Check out our <span style={{ color: 'lightblue' }}>Daily Specials</span> tab above for the latest features!</h5>
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>Note:</span> Due to supply issues we will be offering oysters as FRIED ONLY until further notice.</h5>
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19:</span> Due to the Coronavirus outbreak</h5>
