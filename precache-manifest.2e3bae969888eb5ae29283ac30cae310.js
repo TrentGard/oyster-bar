@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c660c07504a1036de9f939fae0718201",
+    "revision": "521d0ed1614470fc10acfbb649499dd1",
     "url": "/index.html"
   },
   {
-    "revision": "4fe30ca1d7dd6a359e83",
+    "revision": "df4b53885a1bbdcec76f",
     "url": "/static/css/main.96d98449.chunk.css"
   },
   {
-    "revision": "d3a8a83af1a2b99b8142",
-    "url": "/static/js/2.8f3701db.chunk.js"
+    "revision": "983d7ccb17a8f59c1342",
+    "url": "/static/js/2.2f5c2adb.chunk.js"
   },
   {
-    "revision": "4fe30ca1d7dd6a359e83",
-    "url": "/static/js/main.7ed7a2da.chunk.js"
+    "revision": "df4b53885a1bbdcec76f",
+    "url": "/static/js/main.e4814752.chunk.js"
   },
   {
     "revision": "b9d2c8c6f663214f682a",
@@ -162,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e93127f6683d1a1bccce013633fb8000",
     "url": "/static/media/Dinner_Seafood.e93127f6.jpg"
+  },
+  {
+    "revision": "cc05a9c3f8665d7bd934b00df1224f6d",
+    "url": "/static/media/LobsterRolls.cc05a9c3.JPG"
   },
   {
     "revision": "95a8df2028fcbd5b6765b4d713f4a282",
