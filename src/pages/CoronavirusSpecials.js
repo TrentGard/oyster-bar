@@ -1,4 +1,5 @@
 import React from "react";
+import dailySpecial430 from "../img/430.JPG";
 import dailySpecial4292 from "../img/4292.JPG";
 import dailySpecial429 from "../img/429.JPG";
 import lobsterRolls from "../img/LobsterRolls.JPG";
@@ -16,16 +17,22 @@ function DailySpecials() {
     <Container>
       <h1 className="page-title">Daily Specials</h1>
       <br />
-      <h4 className="page-title blue">Available Wednesday (4/29, DINNER)</h4>
+      <h4 className="page-title blue">Available Thursday (4/30)</h4>
       <OBCarousel className="carousel-image-menu" />
-      <img src={dailySpecial4292} alt="Daily Specials" className="menu-image" />
+      <img src={dailySpecial430} alt="Daily Specials" className="menu-image" />
       <br />
       <br />
       <h1 className="page-title">Previous Specials</h1>
       <br />
-      <h4 className="page-title blue">Available Wednesday (4/29, LUNCH)</h4>
+      <h4 className="page-title blue">Wednesday (4/29, DINNER)</h4>
+      <br />
+      <img src={dailySpecial4292} alt="Daily Specials" className="menu-image" />
+      <br />
+      <br />
+      <h4 className="page-title blue">Wednesday (4/29, LUNCH)</h4>
       <br />
       <img src={dailySpecial429} alt="Daily Specials" className="menu-image" />
+      <br />
       <br />
       <h4 className="page-title blue">Tuesday (4/28)</h4>
       <br />
