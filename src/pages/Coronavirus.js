@@ -12,7 +12,7 @@ const Coronavirus = () => {
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19:</span> We have a *tentative* date of Tuesday, June 16th, set for resuming dine-in services.</h5>
         <h5 className="page-title">(With expanded hours and limited seating.)</h5>
-        <h5 className="page-title">In the meantime, we will continue serving take-out only during limited hours (listed below).</h5>
+        <h5 className="page-title">In the meantime, we will continue serving take-out/curbside only during limited hours (listed below).</h5>
         <br />
         <h5 className="page-title">Click the <span style={{ color: 'lightblue' }}>Lunch and Dinner Take-Out</span> tabs above to view our updated menus</h5>
         <h5 className="page-title">and call <a href="tel:260-744-9490" style={{ color: 'lightblue' }}>(260) 744-9490</a> to schedule your order.</h5>
