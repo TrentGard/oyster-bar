@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5759fad27abff85cd7cc7fe8d9eb017",
+    "revision": "502ae739c0c0fd8dc288fd189fa59efe",
     "url": "/index.html"
   },
   {
-    "revision": "b594e1e2e1b1790dc608",
+    "revision": "f913246fb7226584bcc3",
     "url": "/static/css/main.96d98449.chunk.css"
   },
   {
-    "revision": "31c097915d6d5f259c27",
-    "url": "/static/js/2.aa26aa6c.chunk.js"
+    "revision": "d3a8a83af1a2b99b8142",
+    "url": "/static/js/2.8f3701db.chunk.js"
   },
   {
-    "revision": "b594e1e2e1b1790dc608",
-    "url": "/static/js/main.1d0292ff.chunk.js"
+    "revision": "f913246fb7226584bcc3",
+    "url": "/static/js/main.80c957b6.chunk.js"
   },
   {
     "revision": "b9d2c8c6f663214f682a",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cddb02b1b3b671f600ea2ed1724ae08c",
     "url": "/static/media/522.cddb02b1.JPG"
+  },
+  {
+    "revision": "fda02cce3d9596761460f67fe842622e",
+    "url": "/static/media/526-2.fda02cce.JPG"
   },
   {
     "revision": "cff939c00bbfc36e6c40b1421bbe5961",
@@ -154,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e93127f6683d1a1bccce013633fb8000",
     "url": "/static/media/Dinner_Seafood.e93127f6.jpg"
+  },
+  {
+    "revision": "acae74dd262c20a799d7b28cbf3cce7f",
+    "url": "/static/media/LobsterRollPlate.acae74dd.JPG"
   },
   {
     "revision": "95a8df2028fcbd5b6765b4d713f4a282",
