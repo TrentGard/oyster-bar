@@ -1,8 +1,8 @@
 import React from "react";
 import image1 from "../img/Carousel1.jpg";
-import image2 from "../img/Carousel2.gif";
-import image3 from "../img/Carousel3.gif";
-import image4 from "../img/Carousel4.gif";
+import image2 from "../img/LobsterRollPlate.JPG";
+import image3 from "../img/Carousel2.gif";
+import image4 from "../img/Carousel3.gif";
 import image5 from "../img/kitchen_view.JPG";
 import image6 from "../img/jacks_oyster_pit.JPG";
 import { Carousel } from "react-bootstrap";
