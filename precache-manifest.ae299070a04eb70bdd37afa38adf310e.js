@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "502ae739c0c0fd8dc288fd189fa59efe",
+    "revision": "f3997caef159ddae94641e5704037a5b",
     "url": "/index.html"
   },
   {
-    "revision": "f913246fb7226584bcc3",
+    "revision": "a9421782f2c0eaf7339a",
     "url": "/static/css/main.96d98449.chunk.css"
   },
   {
-    "revision": "d3a8a83af1a2b99b8142",
-    "url": "/static/js/2.8f3701db.chunk.js"
+    "revision": "50e88030d944d0a62dcb",
+    "url": "/static/js/2.79a039b1.chunk.js"
   },
   {
-    "revision": "f913246fb7226584bcc3",
-    "url": "/static/js/main.80c957b6.chunk.js"
+    "revision": "a9421782f2c0eaf7339a",
+    "url": "/static/js/main.fbd6672c.chunk.js"
   },
   {
     "revision": "b9d2c8c6f663214f682a",
@@ -58,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab111f15ccd5fd3ca4afc1c52d438774",
     "url": "/static/media/Carousel3.ab111f15.gif"
-  },
-  {
-    "revision": "465361bfef587f8a5b8cb06df006c439",
-    "url": "/static/media/Carousel4.465361bf.gif"
   },
   {
     "revision": "327d8181648114fe2a1b3e151ed5eec7",
