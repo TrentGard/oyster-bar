@@ -1,4 +1,5 @@
 import React from "react";
+import dailySpecial62 from "../img/62.JPG";
 import dailySpecial5292 from "../img/529-2.JPG";
 import dailySpecial5293 from "../img/529-3.JPG";
 import dailySpecial529 from "../img/529.JPG";
@@ -10,8 +11,6 @@ import dailySpecial527 from "../img/527-2.JPG";
 import lobsterRollPlate from "../img/LobsterRollPlate.JPG";
 import dailySpecial5262 from "../img/526-2.JPG";
 import dailySpecial526 from "../img/526.JPG";
-import dailySpecial522 from "../img/522.JPG";
-import dailySpecial521 from "../img/521.JPG";
 import OBCarousel from "../components/OBCarousel";
 import { Container } from "react-bootstrap";
 
@@ -20,16 +19,19 @@ function DailySpecials() {
     <Container>
       <h1 className="page-title">Daily Specials</h1>
       <br />
-      <h4 className="page-title blue">Available Friday (5/29)</h4>
-      <h4 className="page-title blue">UPDATED to include a seafood pasta and our oyster du jour!</h4>
-      <h4 className="page-title blue">The oyster is prepared with a champagne tarragon mignonette sauce!</h4>
+      <h4 className="page-title blue">Available Tuesday (6/2)</h4>
       <OBCarousel className="carousel-image-menu" />
+      <img src={dailySpecial62} alt="Daily Specials" className="menu-image" />
+      <br />
+      <br />
+      <h1 className="page-title">Previous Specials</h1>
+      <br />
+      <h4 className="page-title blue">Friday (5/29)</h4>
+      <br />
       <img src={dailySpecial5292} alt="Daily Specials" className="menu-image" />
       <img src={dailySpecial5293} alt="Daily Specials" className="menu-image" />
       <img src={dailySpecial529} alt="Daily Specials" className="menu-image" />
       <br />
-      <br />
-      <h1 className="page-title">Previous Specials</h1>
       <br />
       <h4 className="page-title blue">Thursday (5/28)</h4>
       <br />
@@ -49,16 +51,6 @@ function DailySpecials() {
       <img src={dailySpecial5262} alt="Daily Specials" className="menu-image" />
       <img src={lobsterRollPlate} alt="Daily Specials" className="menu-image" />
       <img src={dailySpecial526} alt="Daily Specials" className="menu-image" />
-      <br />
-      <br />
-      <h4 className="page-title blue">Friday (5/22)</h4>
-      <br />
-      <img src={dailySpecial522} alt="Daily Specials" className="menu-image" />
-      <br />
-      <br />
-      <h4 className="page-title blue">Thursday (5/21)</h4>
-      <br />
-      <img src={dailySpecial521} alt="Daily Specials" className="menu-image" />
     </Container>
   );
 }
