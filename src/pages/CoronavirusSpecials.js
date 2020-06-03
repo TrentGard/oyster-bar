@@ -1,5 +1,5 @@
 import React from "react";
-import dailySpecial63 from "../img/63.JPG";
+import dailySpecial63 from "../img/63.jpg";
 import dailySpecial62 from "../img/62.JPG";
 import dailySpecial5292 from "../img/529-2.JPG";
 import dailySpecial5293 from "../img/529-3.JPG";
