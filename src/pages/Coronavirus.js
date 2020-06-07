@@ -10,14 +10,20 @@ const Coronavirus = () => {
         <br />
         <OBCarousel className="carousel-image" />
         <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19:</span> We have a *tentative* date of Tuesday, June 16th, set for resuming dine-in services.</h5>
-        <h5 className="page-title">(With expanded hours and limited seating.)</h5>
-        <h5 className="page-title">In the meantime, we will continue serving take-out/curbside only during limited hours (listed below).</h5>
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19 UPDATE:</span> We will be opening dine-in services (inside and out) this <span style={{ color: 'lightblue' }}>Tuesday, June 9th,</span> at 50% capacity and respecting social distancing guidelines. There will be no bar seating;</h5>
+        <h5 className="page-title">however, beginning the following <span style={{ color: 'lightblue' }}>Tuesday, June 16th,</span> we will expand to 75% capacity including bar seating at 6 ft apart! We are also expanding our hours (see below)!</h5>
         <br />
-        <h5 className="page-title">Click the <span style={{ color: 'lightblue' }}>Lunch and Dinner Take-Out</span> tabs above to view our updated menus</h5>
-        <h5 className="page-title">and call <a href="tel:260-744-9490" style={{ color: 'lightblue' }}>(260) 744-9490</a> to schedule your order.</h5>
+        <h6 className="page-title"><span style={{ color: 'lightblue' }}>NOTES:</span> For everyone's safety, servers will be equipped with masks and gloves, along with plastic eye-ware should they so choose. We will continue our practice of testing all employees for a temperature before they start their shift. Additionally, all areas will continue to be routinely sanitized with the inclusion of paper menus/single-use table coverings.</h6>
+        <h6 className="page-title">Regarding testing for temperatures, we do have non-invasive thermometers (i.e. the ones with lasers you need only point at the forehead) and request all guests dining with us undergo the quick scan (again, just as EVERYONE serving you in the restaurant does).</h6>
+        <h6 className="page-title">Full disclosure though: of course we can't force anyone to take this test, and anyone found to have a temperature will be refused dine-in service. We are only making this request for the safety of ALL involved, and asking for a bit of altruism via participation.</h6>
         <br />
-        <h5 className="page-title blue">We will be offering a 10% discount on all food and beverages when you order with a credit or debit card!</h5>
+        <h5 className="page-title">That having been said, keep checking <a href="https://www.facebook.com/The-Oyster-Bar-292501212282/" target="_blank" without rel="noopener noreferrer" style={{ "color": "lightblue" }}>Facebook</a>, <a href="https://www.instagram.com/fwoysterbar/" target="_blank" without rel="noopener noreferrer" style={{ "color": "lightblue" }}>Instagram</a>, and here for all the latest updates.</h5>
+        <h5 className="page-title">We look forward to this step back to normalcy and continuing to serve you <span style={{ color: 'lightblue' }}>serious food in a casual atmosphere!</span></h5>
+        <br />
+        <h5 className="page-title">Click the <span style={{ color: 'lightblue' }}>Lunch and Dinner</span> tabs above to view our updated menus</h5>
+        <h5 className="page-title">and call <a href="tel:260-744-9490" style={{ color: 'lightblue' }}>(260) 744-9490</a> to schedule your order/reservation.</h5>
+        <br />
+        <h5 className="page-title blue">We will be offering a 10% discount on all take-out food and beverages when you order with a credit or debit card!</h5>
         <h5 className="page-title blue">(Burger specials not included.)</h5>
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>Update:</span> Due to escalations in food costs we have had to</h5> 
@@ -29,8 +35,6 @@ const Coronavirus = () => {
         <h5 className="page-title">and please continue checking out our <span style={{ color: 'lightblue' }}>Daily Specials</span> tab above for the latest features!</h5>
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>Reminder:</span> OYSTERS ARE BACK (except for Parmesan and Bienville)!</h5>
-        <br />
-
         <Row className="justify-content-md-center info">
           <Col md="auto">
             <h3>Location:</h3>
@@ -42,14 +46,14 @@ const Coronavirus = () => {
           <Col md="auto" className="blue">
             <h3>New Hours:</h3>
             <br />
-            <p>Tue-Fri Lunch: 11:30 AM to 2 PM</p>
-            <p>Tue-Fri Dinner: 4 PM to 7 PM</p>
-            <p>Sat, Sun, Mon: Closed</p>
+            <p>Tue-Fri Lunch: 11 AM to 3 PM</p>
+            <p>Tue-Sat Dinner: 4 PM to 9 PM</p>
+            <p>Sun-Mon: Closed</p>
             <br />
           </Col>
           <Col md="auto">
             <h3>Contact and</h3>
-            <h3>Place an Order:</h3>
+            <h3>Place an Order/Reservation:</h3>
             <br />
             <p>Call <a href="tel:260-744-9490" style={{ color: 'tan' }}>(260) 744-9490</a></p>
             <br />
