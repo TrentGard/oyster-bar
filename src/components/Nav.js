@@ -16,8 +16,8 @@ import CoronavirusDinner from "../pages/CoronavirusDinner";
 
 const links = [
   { title: "Home ", link: "/" },
-  { title: "Lunch Take-Out", link: "/lunch" },
-  { title: "Dinner Take-Out", link: "/dinner" },
+  { title: "Lunch", link: "/lunch" },
+  { title: "Dinner", link: "/dinner" },
   { title: "Daily Specials", link: "/daily_specials" },
   { title: "Beverages ", link: "/beverages" },
   { title: "Caterings", link: "/caterings" },
