@@ -26,7 +26,7 @@ const Coronavirus = () => {
         <h5 className="page-title blue">We will be offering a 10% discount on all take-out food and beverages when you order with a credit or debit card!</h5>
         <h5 className="page-title blue">(Burger specials not included.)</h5>
         <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>Update:</span> Due to escalations in food costs we have had to</h5> 
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>Burger Update:</span> Due to escalations in food costs we have had to</h5> 
         <h5 className="page-title">marginally increase our Tuesday burger special beyond the $2 price range.</h5>
         <h5 className="page-title">We apologize for the increment, but rest assured</h5>
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>they are still the best quality (1/2 pound!) burgers in Fort Wayne!</span></h5>
