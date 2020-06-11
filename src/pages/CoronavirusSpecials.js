@@ -1,4 +1,5 @@
 import React from "react";
+import dailySpecial611 from "../img/611.jpg";
 import dailySpecial6102 from "../img/610-2.JPG";
 import dailySpecial610 from "../img/610.JPG";
 import dailySpecial69 from "../img/69.JPG";
@@ -6,7 +7,6 @@ import dailySpecial653 from "../img/653.JPG";
 import dailySpecial65 from "../img/65.JPG";
 import dailySpecial652 from "../img/652.JPG";
 import dailySpecial64 from "../img/64.JPG";
-import dailySpecial63 from "../img/63.jpg";
 import lobsterRollPlate from "../img/LobsterRollPlate.JPG";
 import OBCarousel from "../components/OBCarousel";
 import { Container } from "react-bootstrap";
@@ -16,13 +16,18 @@ function DailySpecials() {
     <Container>
       <h1 className="page-title">Daily Specials</h1>
       <br />
-      <h4 className="page-title blue">*UPDATED* Available Wednesday (6/10)</h4>
+      <h4 className="page-title blue">Available Thursday (6/11)</h4>
       <OBCarousel className="carousel-image-menu" />
-      <img src={dailySpecial6102} alt="Daily Specials" className="menu-image" />
-      <img src={dailySpecial610} alt="Daily Specials" className="menu-image" />
+      <img src={dailySpecial611} alt="Daily Specials" className="menu-image" />
       <br />
       <br />
       <h1 className="page-title">Previous Specials</h1>
+      <br />
+      <h4 className="page-title blue">Wednesday (6/10)</h4>
+      <br />
+      <img src={dailySpecial6102} alt="Daily Specials" className="menu-image" />
+      <img src={dailySpecial610} alt="Daily Specials" className="menu-image" />
+      <br />
       <br />
       <h4 className="page-title blue">Tuesday (6/10)</h4>
       <br />
@@ -39,11 +44,6 @@ function DailySpecials() {
       <h4 className="page-title blue">Thursday (6/4)</h4>
       <br />
       <img src={dailySpecial64} alt="Daily Specials" className="menu-image" />
-      <br />
-      <br />
-      <h4 className="page-title blue">Wednesday (6/3)</h4>
-      <br />
-      <img src={dailySpecial63} alt="Daily Specials" className="menu-image" />
     </Container>
   );
 }
