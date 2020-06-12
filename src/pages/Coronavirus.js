@@ -53,7 +53,8 @@ const Coronavirus = () => {
           </Col>
           <Col md="auto">
             <h3>Contact and</h3>
-            <h3>Place an Order/Reservation:</h3>
+            <h3>Place an Order/</h3>
+            <h3>Reservation:</h3>
             <br />
             <p>Call <a href="tel:260-744-9490" style={{ color: 'tan' }}>(260) 744-9490</a></p>
             <br />
