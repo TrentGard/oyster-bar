@@ -10,8 +10,7 @@ const Coronavirus = () => {
         <br />
         <OBCarousel className="carousel-image" />
         <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19 UPDATE:</span> We will be opening dine-in services (inside and out) this <span style={{ color: 'lightblue' }}>Tuesday, June 9th,</span> at 50% capacity and respecting social distancing guidelines. There will be no bar seating;</h5>
-        <h5 className="page-title">however, beginning the following <span style={{ color: 'lightblue' }}>Tuesday, June 16th,</span> we will expand to 75% capacity including bar seating at 6 ft apart! We are also expanding our hours (see below)!</h5>
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19 UPDATE:</span> We are open for dine-in services (inside and out) with expanded hours (see below) at limited capacity and respecting social distancing guidelines.</h5>
         <br />
         <h6 className="page-title"><span style={{ color: 'lightblue' }}>NOTES:</span> For everyone's safety, servers will be equipped with masks and gloves, along with plastic eye-ware should they so choose. We will continue our practice of testing all employees for a temperature before they start their shift. Additionally, all areas will continue to be routinely sanitized with the inclusion of paper menus/single-use table coverings.</h6>
         <h6 className="page-title">Regarding testing for temperatures, we do have non-invasive thermometers (i.e. the ones with lasers you need only point at the forehead) and request all guests dining with us undergo the quick scan (again, just as EVERYONE serving you in the restaurant does).</h6>
