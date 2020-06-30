@@ -10,7 +10,12 @@ const Coronavirus = () => {
         <br />
         <OBCarousel className="carousel-image" />
         <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19 UPDATE:</span> We are open for dine-in services (inside and out) with expanded hours (see below) at limited capacity and respecting social distancing guidelines.</h5>
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>UPDATE:</span> We will be CLOSED this Saturday, July 4th.</h5>
+        <h5 className="page-title">This decision was made to honor our AWESOME staff and give them a 3 day weekend off to spend time with friends and family.</h5>
+        <h5 className="page-title">Thank you everyone and we hope you have a fun, safe, and healthy weekend!</h5>
+
+        <br />
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19:</span> We are open for dine-in services (inside and out) with expanded hours (see below) at limited capacity and respecting social distancing guidelines.</h5>
         <br />
         <h6 className="page-title"><span style={{ color: 'lightblue' }}>NOTES:</span> For everyone's safety, servers will be equipped with masks and gloves, along with plastic eye-ware should they so choose. We will continue our practice of testing all employees for a temperature before they start their shift. Additionally, all areas will continue to be routinely sanitized with the inclusion of paper menus/single-use table coverings.</h6>
         <h6 className="page-title">Regarding testing for temperatures, we do have non-invasive thermometers (i.e. the ones with lasers you need only point at the forehead) and request all guests dining with us undergo the quick scan (again, just as EVERYONE serving you in the restaurant does).</h6>
