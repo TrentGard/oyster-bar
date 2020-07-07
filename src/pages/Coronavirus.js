@@ -10,11 +10,6 @@ const Coronavirus = () => {
         <br />
         <OBCarousel className="carousel-image" />
         <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>UPDATE:</span> We will be CLOSED this Saturday, July 4th.</h5>
-        <h5 className="page-title">This decision was made to honor our AWESOME staff and give them a 3 day weekend off to spend time with friends and family.</h5>
-        <h5 className="page-title">Thank you everyone and we hope you have a fun, safe, and healthy weekend!</h5>
-
-        <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19:</span> We are open for dine-in services (inside and out) with expanded hours (see below) at limited capacity and respecting social distancing guidelines.</h5>
         <br />
         <h6 className="page-title"><span style={{ color: 'lightblue' }}>NOTES:</span> For everyone's safety, servers will be equipped with masks and gloves, along with plastic eye-ware should they so choose. We will continue our practice of testing all employees for a temperature before they start their shift. Additionally, all areas will continue to be routinely sanitized with the inclusion of paper menus/single-use table coverings.</h6>
@@ -37,8 +32,6 @@ const Coronavirus = () => {
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>Thank you for your support during these difficult times</span></h5> 
         <h5 className="page-title">and please continue checking out our <span style={{ color: 'lightblue' }}>Daily Specials</span> tab above for the latest features!</h5>
-        <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>Reminder:</span> OYSTERS ARE BACK (except for Parmesan and Bienville)!</h5>
         <Row className="justify-content-md-center info">
           <Col md="auto">
             <h3>Location:</h3>
