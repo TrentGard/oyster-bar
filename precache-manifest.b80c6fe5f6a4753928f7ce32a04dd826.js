@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87dd62d1f246f92e2d06fa76a8ce8baf",
+    "revision": "835f7ce306a2f6b2c99c7583c9656294",
     "url": "/index.html"
   },
   {
-    "revision": "d6a49eebb0cc22df547f",
+    "revision": "5bfb1b72d3ef01ab6eab",
     "url": "/static/css/main.96d98449.chunk.css"
   },
   {
-    "revision": "e1ed775d12615fcaf943",
-    "url": "/static/js/2.1115a449.chunk.js"
+    "revision": "b0eca69dcce8525f3118",
+    "url": "/static/js/2.f88b1f9f.chunk.js"
   },
   {
-    "revision": "d6a49eebb0cc22df547f",
-    "url": "/static/js/main.a12d5be6.chunk.js"
+    "revision": "5bfb1b72d3ef01ab6eab",
+    "url": "/static/js/main.93d4269a.chunk.js"
   },
   {
     "revision": "b9d2c8c6f663214f682a",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a906db4ae201632e44eb99c0112eb5ce",
     "url": "/static/media/716.a906db4a.jpeg"
+  },
+  {
+    "revision": "f06251b7cac666dead8d1dd65920df94",
+    "url": "/static/media/717.f06251b7.jpeg"
   },
   {
     "revision": "052c328117a674a300eefef0e06845d7",
@@ -156,6 +160,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Dinner_Seafood.e93127f6.jpg"
   },
   {
+    "revision": "d20277416f9a5774c144f71f2493789a",
+    "url": "/static/media/Duck.d2027741.jpeg"
+  },
+  {
     "revision": "d3f1dc0c6abd14a0d77d46304469aa18",
     "url": "/static/media/Grouper.d3f1dc0c.JPG"
   },
@@ -186,6 +194,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "647fdc86ef74a256fcdf46d0f07969f4",
     "url": "/static/media/Seabass.647fdc86.jpeg"
+  },
+  {
+    "revision": "6e6e08c9fa83b2499f1f67114384e749",
+    "url": "/static/media/Seabass2.6e6e08c9.jpeg"
   },
   {
     "revision": "4d7b42c6a1d88733f3255cc0afb7151b",
