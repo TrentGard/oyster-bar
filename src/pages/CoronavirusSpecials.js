@@ -1,4 +1,5 @@
 import React from "react";
+import dailySpecial721 from "../img/721.jpeg";
 import dailySpecial717 from "../img/717.jpeg";
 import Duck from "../img/Duck.jpeg";
 import Seabass2 from "../img/Seabass2.jpeg";
@@ -13,7 +14,6 @@ import Halibut from "../img/Halibut.JPG";
 import dailySpecial6162 from "../img/616-2.JPG";
 import dailySpecial616 from "../img/616.JPG";
 import dailySpecial612 from "../img/612.JPG";
-import dailySpecial611 from "../img/611.jpg";
 import lobsterRollPlate from "../img/LobsterRollPlate.JPG";
 import OBCarousel from "../components/OBCarousel";
 import { Container } from "react-bootstrap";
@@ -23,15 +23,20 @@ function DailySpecials() {
     <Container>
       <h1 className="page-title">Daily Specials</h1>
       <br />
-      <h4 className="page-title blue">Available Friday (7/17) W/ Guest Chef Tony West!</h4>
+      <h4 className="page-title blue">Available Tuesday (7/21)</h4>
       <OBCarousel className="carousel-image-menu" />
+      <img src={dailySpecial721} alt="Daily Specials" className="menu-image" />
+      <br />
+      <br />
+      <h1 className="page-title">Previous Specials</h1>
+      <br />
+      <h4 className="page-title blue">Friday (7/17) W/ Guest Chef Tony West!</h4>
+      <br />
       <img src={Seabass2} alt="Daily Specials" className="menu-image" />
       <img src={Duck} alt="Daily Specials" className="menu-image" />
       <img src={dailySpecial717} alt="Daily Specials" className="menu-image" />
       <img src={Tony} alt="Daily Specials" className="menu-image" />
       <br />
-      <br />
-      <h1 className="page-title">Previous Specials</h1>
       <br />
       <h4 className="page-title blue">Thursday (7/16) W/ Guest Chef Tony West!</h4>
       <br />
@@ -62,11 +67,6 @@ function DailySpecials() {
       <h4 className="page-title blue">Friday (6/12)</h4>
       <br />
       <img src={dailySpecial612} alt="Daily Specials" className="menu-image" />
-      <br />
-      <br />
-      <h4 className="page-title blue">Thursday (6/11)</h4>
-      <br />
-      <img src={dailySpecial611} alt="Daily Specials" className="menu-image" />
     </Container>
   );
 }
