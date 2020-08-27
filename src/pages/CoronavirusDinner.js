@@ -1,6 +1,6 @@
 import React from "react";
-import COVIDApps from "../img/CoronavirusApps.jpg";
-import COVIDDinner from "../img/CoronavirusDinner.jpg";
+import COVIDDinner1 from "../img/DinnerMenu1June2020.jpg";
+import COVIDDinner2 from "../img/DinnerMenu2June2020.jpg";
 import OBCarousel from "../components/OBCarousel";
 import { Container } from "react-bootstrap";
 
@@ -11,8 +11,8 @@ const CoronavirusDinner = () => {
       <br />
       <h4 className="page-title blue">Available Tuesday through Saturday from 4 PM to 9 PM</h4>
       <OBCarousel className="carousel-image-menu" />
-      <img src={COVIDApps} alt="Dinner Apps" className="menu-image" />
-      <img src={COVIDDinner} alt="Dinner" className="menu-image" />
+      <img src={COVIDDinner1} alt="Dinner Apps" className="menu-image" />
+      <img src={COVIDDinner2} alt="Dinner" className="menu-image" />
     </Container>
   );
 };
