@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "814f294a6e13a31f95f15bda75d78d9e",
+    "revision": "d34f34a57d4c4918cd6f147b6c660b4f",
     "url": "/index.html"
   },
   {
-    "revision": "6b950788152eeb3c8ae3",
-    "url": "/static/css/main.96d98449.chunk.css"
+    "revision": "ce0afecfc9efb57e6600",
+    "url": "/static/css/main.32fd5326.chunk.css"
   },
   {
-    "revision": "b0eca69dcce8525f3118",
-    "url": "/static/js/2.f88b1f9f.chunk.js"
+    "revision": "d5316cb30e56df73b774",
+    "url": "/static/js/2.482f0479.chunk.js"
   },
   {
-    "revision": "6b950788152eeb3c8ae3",
-    "url": "/static/js/main.724601b1.chunk.js"
+    "revision": "ce0afecfc9efb57e6600",
+    "url": "/static/js/main.25919109.chunk.js"
   },
   {
     "revision": "b9d2c8c6f663214f682a",
@@ -136,16 +136,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Cocktails.eeae06db.jpg"
   },
   {
-    "revision": "979563015968452683b803309d7fdf46",
-    "url": "/static/media/CoronavirusApps.97956301.jpg"
+    "revision": "274fa1859dbea38de5a45c5d1dd2e03f",
+    "url": "/static/media/DinnerMenu1June2020.274fa185.jpg"
   },
   {
-    "revision": "86d0780ed84e993f62c4c3c87241bc8f",
-    "url": "/static/media/CoronavirusDinner.86d0780e.jpg"
-  },
-  {
-    "revision": "bff455614534da970b22332e1f396c14",
-    "url": "/static/media/CoronavirusLunch.bff45561.jpg"
+    "revision": "dab0c66640b3f664f2d63228352daa38",
+    "url": "/static/media/DinnerMenu2June2020.dab0c666.jpg"
   },
   {
     "revision": "8740bd1c8cd3ea47ecab093e05742d42",
@@ -174,6 +170,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "acae74dd262c20a799d7b28cbf3cce7f",
     "url": "/static/media/LobsterRollPlate.acae74dd.JPG"
+  },
+  {
+    "revision": "52feb44bae3f3128fe01bb311f57af6a",
+    "url": "/static/media/LunchMenuJune2020.52feb44b.jpg"
   },
   {
     "revision": "95a8df2028fcbd5b6765b4d713f4a282",
