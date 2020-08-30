@@ -12,7 +12,7 @@ const Coronavirus = () => {
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19:</span> We are open for dine-in services (inside and out) with expanded hours (see below) at limited capacity and respecting social distancing guidelines.</h5>
         <br />
-        <h6 className="page-title"><span style={{ color: 'lightblue' }}>NOTES:</span> For everyone's safety, servers will be equipped with masks and gloves, along with plastic eye-ware should they so choose. We will continue our practice of testing all employees for a temperature before they start their shift. Additionally, all areas will continue to be routinely sanitized with the inclusion of paper menus/single-use table coverings.</h6>
+        <h6 className="page-title"><span style={{ color: 'lightblue' }}>NOTES:</span> For everyone's safety, servers will be equipped with masks along with plastic eye-ware should they so choose. We will continue our practice of testing all employees for a temperature before they start their shift. Additionally, all areas will continue to be routinely sanitized.</h6>
         <br />
         <h5 className="page-title">Keep checking <a href="https://www.facebook.com/The-Oyster-Bar-292501212282/" target="_blank" without rel="noopener noreferrer" style={{ "color": "lightblue" }}>Facebook</a>, <a href="https://www.instagram.com/fwoysterbar/" target="_blank" without rel="noopener noreferrer" style={{ "color": "lightblue" }}>Instagram</a>, and here for all the latest updates.</h5>
         <h5 className="page-title">We look forward to this step back to normalcy and continuing to serve you <span style={{ color: 'lightblue' }}>serious food in a casual atmosphere!</span></h5>
