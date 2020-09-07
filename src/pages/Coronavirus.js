@@ -39,7 +39,8 @@ const Coronavirus = () => {
             <h3>New Hours:</h3>
             <br />
             <p>Tue-Fri Lunch: 11 AM to 3 PM</p>
-            <p>Tue-Sat Dinner: 4 PM to 9 PM</p>
+            <p>Tue-Thu Dinner: 4 PM to 9 PM</p>
+            <p>Fri-Sat Dinner: 4 PM to 10 PM</p>
             <p>Sun-Mon: Closed</p>
             <br />
           </Col>
