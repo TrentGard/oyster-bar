@@ -7,9 +7,10 @@ import { Container } from "react-bootstrap";
 const CoronavirusDinner = () => {
   return (
     <Container>
-      <h1 className="page-title">Dinner Take-Out</h1>
+      <h1 className="page-title">Dinner</h1>
       <br />
-      <h4 className="page-title blue">Available Tuesday through Saturday from 4 PM to 9 PM</h4>
+      <h4 className="page-title blue">Available Tuesday through Thursday from 4 PM to 9 PM,</h4>
+      <h4 className="page-title blue">Friday and Saturday from 4 PM to 10 PM</h4>
       <OBCarousel className="carousel-image-menu" />
       <img src={COVIDDinner1} alt="Dinner Apps" className="menu-image" />
       <img src={COVIDDinner2} alt="Dinner" className="menu-image" />
