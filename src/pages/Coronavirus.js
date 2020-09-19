@@ -25,8 +25,7 @@ const Coronavirus = () => {
         <h5 className="page-title">We apologize for the increment, but rest assured</h5>
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>they are still the best quality (1/2 pound!) burgers in Fort Wayne!</span></h5>
         <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>Thank you for your support during these difficult times</span></h5> 
-        <h5 className="page-title">and please continue checking out our <span style={{ color: 'lightblue' }}>Daily Specials</span> tab above for the latest features!</h5>
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>Thank you for your support during these difficult times!</span></h5>
         <Row className="justify-content-md-center info">
           <Col md="auto">
             <h3>Location:</h3>
