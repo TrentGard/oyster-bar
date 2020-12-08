@@ -7,7 +7,7 @@
     "gh-pages": "^2.1.1",
     "hash-router": "^0.4.0",
     "react": "^16.9.0",
-    "react-bootstrap": "^1.0.0-beta.12",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.9.0",
     "react-hash-router": "^0.2.0",
     "react-instagram-embed": "^1.5.0",
