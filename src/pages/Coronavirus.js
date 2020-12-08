@@ -10,7 +10,7 @@ const Coronavirus = () => {
         <br />
         <OBCarousel className="carousel-image" />
         <br />
-        <h5 className="page-title"><span style={{ color: 'lightblue' }}>UPDATE:</span> Beginning December 7 we will have <span style={{ color: 'lightblue' }}>new dinner hours</span> of Monday through Saturday 4 PM - 10 PM (lunch hours will remain the same)!</h5>
+        <h5 className="page-title"><span style={{ color: 'lightblue' }}>UPDATE:</span> We have <span style={{ color: 'lightblue' }}>new dinner hours</span> of <span style={{ color: 'lightblue' }}>Monday</span> through Saturday 4 PM - 10 PM (lunch hours will remain the same)!</h5>
         <h5 className="page-title">We look forward to seeing you amid these expanded hours!</h5>
         <br />
         <h5 className="page-title"><span style={{ color: 'lightblue' }}>COVID-19:</span> We are open for dine-in services at limited capacity and following all government-recommended health guidelines.</h5>
@@ -34,9 +34,8 @@ const Coronavirus = () => {
             <h3 className="blue">Hours:</h3>
             <br />
             <p>Tue-Fri Lunch: 11 AM to 3 PM</p>
-            <p>Tue-Thu Dinner: 4 PM to 9 PM</p>
-            <p>Fri-Sat Dinner: 4 PM to 10 PM</p>
-            <p>Sun-Mon: Closed</p>
+            <p>Mon-Sat Dinner: 4 PM to 10 PM</p>
+            <p>Sun: Closed</p>
             <br />
           </Col>
           <Col md="auto">
